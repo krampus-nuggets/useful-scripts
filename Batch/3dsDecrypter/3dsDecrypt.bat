@@ -5,6 +5,12 @@ where ctrtool.exe
 where makerom.exe
 where decrypt.exe
 
+if %errorlevel% neq 0 (
+	echo =============================
+	echo Required binary not found :(
+	echo =============================
+	exit
+) else (
 SetLocal EnableDelayedExpansion
 echo %date% %time% >log.txt 2>&1
 echo Decrypting...
@@ -96,3 +102,4 @@ set /a dec=0x%~1
 if [%~2] neq [] set %~2=%dec%
 exit/b
 rem matif
+)
