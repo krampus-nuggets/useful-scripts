@@ -10,7 +10,7 @@
 2. Add the **3dsDecrypter.bat** file to the directory with the encrypted .CIA or .3DS file
 3. Then open the directory of the batch file either in CMD or PowerShell and run it.
 
-**Please Note -** If for some reason it does not decrypt, decompress the *decrypt_v2.zip* file in the **compress** directory and add the **seeddb.bin** file to the same directory as the batch file. Then try running the batch file again.
+**Please Note -** If for some reason it does not decrypt, decompress the *decrypt_v2.zip* file in the **compressed** directory and add the **seeddb.bin** file to the same directory as the batch file. Then try running the batch file again.
 
 ## Resources
 
