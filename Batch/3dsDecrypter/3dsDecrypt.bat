@@ -2,6 +2,7 @@
 title Batch CIA 3DS Decryptor
 
 where ctrtool.exe
+where makerom.exe
 SetLocal EnableDelayedExpansion
 echo %date% %time% >log.txt 2>&1
 echo Decrypting...
