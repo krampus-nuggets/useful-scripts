@@ -1,5 +1,4 @@
 @echo off
-mode con cols=52 lines=26
 title Batch CIA 3DS Decryptor
 SetLocal EnableDelayedExpansion
 echo %date% %time% >log.txt 2>&1
