@@ -1,0 +1,1 @@
+ powershell.exe -command "code '.'" >NUL
