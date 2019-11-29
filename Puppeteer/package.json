@@ -1,0 +1,11 @@
+{
+  "name": "webpage-to-pdf",
+  "version": "1.0.0",
+  "main": "webPage-to-PDF.js",
+  "author": "krampus-nuggets",
+  "license": "MIT",
+  "description": "convert webpage to pdf",
+  "dependencies": {
+    "puppeteer": "^1.20.0"
+  }
+}
